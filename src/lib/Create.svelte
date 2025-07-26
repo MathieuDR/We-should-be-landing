@@ -48,11 +48,11 @@
 
           <div class="form-control w-full">
             <label class="label mb-2">
-              <span class="label-text">What should we be</span>
+              <span class="label-text">We should be</span>
             </label>
             <input
               type="text"
-              placeholder="doing..."
+              placeholder="..."
               class="input input-bordered w-full"
               bind:value={inputText}
               on:input={generateUrl}

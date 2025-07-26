@@ -7,4 +7,8 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     svelte()],
+
+  build: {
+    outDir: 'dist'
+  }
 })
