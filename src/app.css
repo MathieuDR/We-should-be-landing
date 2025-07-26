@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@plugin "daisyui" {
+  themes: false;
+}
+
+@plugin "./catppuccinTheme.latte.ts";
+@plugin "./catppuccinTheme.mocha.ts";
