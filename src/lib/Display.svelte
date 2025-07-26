@@ -25,15 +25,13 @@
   let displayText = text || formatPathname();
 </script>
 
-<div class="hero bg-base-200 min-h-screen">
-  <div class="hero-content text-center">
-    <div class="max-w-md">
-      <p class="text-2xl py-6">We should be</p>
-      <h1 class="text-5xl font-bold">{displayText}</h1>
+<div class="hero-content text-center">
+  <div class="max-w-md">
+    <p class="text-2xl py-6">We should be</p>
+    <h1 class="text-5xl font-bold">{displayText}</h1>
 
-      <div class="mt-8">
-        <a href="/" class="btn btn-primary">Create Your Own</a>
-      </div>
+    <div class="mt-8">
+      <a href="/" class="btn btn-primary">Create Your Own</a>
     </div>
   </div>
 </div>
