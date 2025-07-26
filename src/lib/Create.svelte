@@ -42,17 +42,17 @@
     <div class="max-w-md">
       <div class="card w-96 bg-base-100 shadow-xl">
         <div class="card-body">
-          <h2 class="card-title justify-center text-2xl mb-4">
+          <h2 class="card-title justify-center text-2xl mb-3">
             Create a Share URL
           </h2>
 
           <div class="form-control w-full">
-            <label class="label">
-              <span class="label-text">What should we be?</span>
+            <label class="label mb-2">
+              <span class="label-text">What should we be</span>
             </label>
             <input
               type="text"
-              placeholder="Enter your message..."
+              placeholder="doing..."
               class="input input-bordered w-full"
               bind:value={inputText}
               on:input={generateUrl}
@@ -61,7 +61,7 @@
 
           {#if generatedUrl}
             <div class="form-control w-full mt-4">
-              <label class="label">
+              <label class="label mb-2">
                 <span class="label-text">Your shareable URL:</span>
               </label>
               <div class="join">
